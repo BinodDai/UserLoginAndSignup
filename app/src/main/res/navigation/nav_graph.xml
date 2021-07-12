@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profileFragmnet">
+
+    <fragment
+        android:id="@+id/profileFragmnet"
+        android:name="com.binod.mvvmpractise.ui.home.profile.ProfileFragmnet"
+        android:label="profile_fragmnet_fragment"
+        tools:layout="@layout/profile_fragmnet_fragment" />
+</navigation>
